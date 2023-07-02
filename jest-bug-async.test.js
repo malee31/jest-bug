@@ -20,10 +20,10 @@ beforeAll(async () => {
 	log("Continue");
 
 	let mockedBug = require("./jest-bug-import.js");
-	await expect(mockedBug.getNumber()).resolves.toBe(0)
-}, 10000)
+	await expect(mockedBug.getNumber()).resolves.toBe(0);
+}, 10000);
 
 test("Pass", () => {
 	// At least 1 test needs to exist
 	expect(1).toBe(1);
-})
+});

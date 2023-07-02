@@ -16,6 +16,7 @@ beforeAll(async () => {
 	await new Promise(resolve => {
 		setTimeout(resolve, SLEEP_DURATION);
 	});
+
 	log("Continue");
 
 	let mockedBug = require("./jest-bug-import.js");
